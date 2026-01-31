@@ -17,6 +17,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public ResponseEntity<?> helloWorld(@RequestParam String name) {
-        return ResponseEntity.ok("Hello " + name + ", welcome to the deployment class!\nI'm " + fullname + ", you can reach me at " + email + ".");
+        return ResponseEntity.ok("Hallo " + name + ", welcome to the deployment class!\nI'm " + fullname + ", you can reach me at " + email + ".");
     }
 }
